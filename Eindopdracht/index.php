@@ -3,16 +3,26 @@
 /*******************************************************************************************************************/
 /******************************************* OPDRACHT 1 doe je hieronder *******************************************/
 
+<<<<<<< HEAD
 include 'chart/includes/bitcoinData.php';
+=======
+/* 
+ * Opdracht 1: voeg hier het bestand allcoins.php in. 
+ * Verder hoef je geen code te schrijven op deze pagina.
+ */
+
+include 'bitcoinData.php';
+>>>>>>> 9bbe82646e4981f0338a555250dbac74c6e60435
 
 /*******************************************************************************************************************/
 /**************************** De code hieronder heb je nodig en hoef je niet aan te passen *************************/
 ?>
 
+
 <?php include 'header.php'; ?>
 <div class="container mt-4">
     <div class="row mb-4">
-        <div class="col d-flex justify-content-center">
+        <div class= "col d-flex justify-content-center">
             <h4>Koop Crypto munten</h4>
         </div>
     </div>
@@ -79,4 +89,6 @@ include 'chart/includes/bitcoinData.php';
 </div>
 
 
-<?php include 'footer.php'; ?>
+<?php include 'footer.php';
+
+ ?>
