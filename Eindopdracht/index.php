@@ -3,12 +3,7 @@
 /*******************************************************************************************************************/
 /******************************************* OPDRACHT 1 doe je hieronder *******************************************/
 
-/* 
- * Opdracht 1: voeg hier het bestand allcoins.php in. 
- * Verder hoef je geen code te schrijven op deze pagina.
- */
-
-
+include 'chart/includes/bitcoinData.php';
 
 /*******************************************************************************************************************/
 /**************************** De code hieronder heb je nodig en hoef je niet aan te passen *************************/
@@ -59,9 +54,9 @@
                                 <td><?php echo $key  ?></td>
                                 <td><?php echo $transaction[0]; ?></td>
                                 <td><?php echo $transaction[1]; ?></td>
-                                <td><?php echo number_format($transaction[2], 4) ?></td>
+                                <td><?php echo number_format($transaction[2], 4); ?></td>
                             </tr>
-                        <?php endforeach; ?>
+                        <?php endforeach; ?> 
                     <?php endif; ?>
                 </tbody>
                 <tr>

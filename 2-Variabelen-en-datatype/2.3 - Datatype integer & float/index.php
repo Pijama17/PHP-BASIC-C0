@@ -3,11 +3,11 @@
 <body>
 
 <?php
-$leeftijd = 55;
+$leeftijd = 17;
 echo $leeftijd;
-$melkprijs = 0.98;
-echo $melkprijs;
+echo "<br>";
+$melk = 0.90;
+echo "De halfvolle melk van jumbo kost" . " ". "€".$melk;
 ?>
-
 </body>
 </html> 
