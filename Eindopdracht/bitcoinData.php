@@ -137,8 +137,8 @@ function getBitcoinData()
 
     $bitcoinInstance = json_decode($output);
 
-    return $bitcoinInstance;
-}
+     return $bitcoinInstance;
+} 
 
 /************************* De functies hierboven heb je nodig en hoef je niet aan te passen ************************/
 /*******************************************************************************************************************/
