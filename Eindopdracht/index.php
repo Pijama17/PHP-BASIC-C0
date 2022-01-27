@@ -72,24 +72,53 @@ include 'bitcoinData.php';
                 <tr>
                     <td colspan="4">Totaal gekochte bitcoins: <?php echo $total_bitcoin_amount ?></td>
                 </tr>
+
             </table>
+
         </div>
+
         <div class="col">
+
             <div class="card m-b-30">
-                <div class="card-header bg-white">
-                    <h5 class="card-title text-black">Bitcoin grafiek</h5>
-                    <h6 class="card-subtitle">Hieronder staat de door jouw gemaakte data</h6>
+
+                <div class="card-header bg-wh
+                ite">
+                    <h5 class="card-title tex
+                    t-black">Bitcoin grafiek</h5>
+                    <h6 class="card-subtitle"
+                    >Hieronder staat de door jouw gemaakte data</h6>
                 </div>
+
                 <div class="card-body">
-                    <canvas id="xp-chartjs-basic-line" class="xp-chartjs-chart"></canvas>
+
+
+                    <canvas id="xp-chartjs-ba
+                    sic-line" class="xp-chartjs-chart"></canvas>
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </div>
+
+
+
+
 
 
 <?php include 'footer.php';
 
 
+
+
+
  ?>
+
+
+
+
+
+ 
